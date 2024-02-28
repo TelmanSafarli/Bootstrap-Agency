@@ -30,4 +30,34 @@ header nav a {
 header nav a:hover {
   color: #ffc900;
   cursor: pointer;
+}
+
+#welcome {
+  height: 790px;
+  background-image: url(Assets/header-bg.jpg);
+  background-size: cover;
+}
+#welcome .textbox {
+  position: relative;
+  text-align: center;
+  top: 220px;
+}
+#welcome .textbox h1, #welcome .textbox h2, #welcome .textbox h3 {
+  color: #fff7e6;
+  font-weight: 700;
+  line-height: 1.6;
+}
+#welcome .textbox h1 {
+  font-size: 35px;
+}
+#welcome .textbox h2 {
+  font-size: 70px;
+}
+#welcome .textbox .btn {
+  border-radius: 5px;
+  margin-top: 40px;
+  background-color: #ffc900;
+  padding: 15px 40px;
+  font-size: 20px;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
