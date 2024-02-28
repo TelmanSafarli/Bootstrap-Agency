@@ -3,11 +3,15 @@ body {
   font-weight: 500;
 }
 
-a {
-  color: orange;
+.imgbox {
+  overflow: hidden;
 }
-a:hover {
-  color: black;
+.imgbox img {
+  width: 100%;
+}
+
+section {
+  padding: 80px 0;
 }
 
 header {
@@ -60,4 +64,40 @@ header nav a:hover {
   padding: 15px 40px;
   font-size: 20px;
   font-weight: 700;
+}
+
+#services .wid h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+#services .wid p {
+  color: #8d8989;
+  margin: 20px 0 40px 0;
+  font-size: 20px;
+}
+#services .box .icon {
+  margin: 20px 90px;
+  height: 120px;
+  width: 120px;
+  padding: 27px;
+  border-radius: 50%;
+  color: white;
+  background-color: #ffc900;
+  font-size: 60px;
+}
+#services .box .textbox {
+  text-align: center;
+  margin-left: 30px;
+  width: 290px;
+}
+#services .box .textbox h2 {
+  margin-right: 30px;
+  font-size: 30px;
+  font-weight: 700;
+}
+#services .box .textbox p {
+  width: 260px;
+  color: #8d8989;
+  margin: 10px 0;
+  line-height: 1.6;
 }/*# sourceMappingURL=style.css.map */
