@@ -100,4 +100,104 @@ header nav a:hover {
   color: #8d8989;
   margin: 10px 0;
   line-height: 1.6;
+}
+
+#portfolio {
+  background-color: #f7fafa;
+}
+#portfolio .text h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+#portfolio .text p {
+  color: #8d8989;
+  margin: 20px 0 40px 0;
+  font-size: 20px;
+}
+#portfolio .box {
+  position: relative;
+}
+#portfolio .box .icon {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 70px;
+  color: white;
+  background: #fdb602;
+  opacity: 0;
+  transition: 0.5s;
+}
+#portfolio .box .icon:hover {
+  opacity: 0.9;
+}
+#portfolio .textbox {
+  text-align: center;
+  margin: 20px 30px 50px 0;
+}
+#portfolio .textbox h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+#portfolio .textbox p {
+  font-size: 20px;
+  color: #8d8989;
+  margin: 10px 15px;
+}
+
+#team {
+  background-color: #f7fafa;
+}
+#team .text h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+#team .text p {
+  color: #8d8989;
+  margin: 20px 0 60px 0;
+  font-size: 20px;
+}
+#team .box .imgbox {
+  margin-left: 40px;
+  border: 10px solid #dee1e1;
+  border-radius: 50%;
+  width: 220px;
+}
+#team .box .name {
+  text-align: center;
+  margin: 20px 30px 50px 0;
+}
+#team .box .name h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+#team .box .name p {
+  font-size: 20px;
+  color: #8d8989;
+  margin: 10px 15px;
+}
+#team .box ul {
+  display: flex;
+  justify-content: center;
+}
+#team .box ul li .icon {
+  border-radius: 50%;
+  background-color: #212629;
+  margin: 15px 10px;
+  padding: 13px;
+  color: white;
+  font-size: 15px;
+}
+#team .textbox {
+  width: 750px;
+}
+#team .textbox p {
+  font-size: 20px;
+  color: #8d8989;
+  margin: 0 15px;
+  line-height: 1.6;
 }/*# sourceMappingURL=style.css.map */
