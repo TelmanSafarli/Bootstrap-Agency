@@ -43,6 +43,7 @@ header .menu nav a:hover {
   height: 790px;
   background-image: url(Assets/header-bg.jpg);
   background-size: cover;
+  background-position: center;
 }
 #welcome .textbox {
   position: relative;
@@ -371,9 +372,6 @@ header .menu nav a:hover {
 
 footer {
   padding: 30px 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 footer .copyright h1 {
   margin-top: 10px;
@@ -402,6 +400,7 @@ footer ul li .facebook {
 }
 footer nav {
   margin: 10px 0;
+  text-align: end;
 }
 footer nav a {
   padding: 14px;
@@ -411,4 +410,12 @@ footer nav a {
 footer nav a:hover {
   color: #5e636b;
   cursor: pointer;
+}
+@media (max-width: 992px) {
+  footer .copyright, footer nav {
+    text-align: center;
+  }
+  footer ul li .icon {
+    margin: 15px 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
