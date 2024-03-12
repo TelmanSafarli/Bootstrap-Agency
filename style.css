@@ -15,7 +15,7 @@ section {
 }
 
 header {
-  padding: 25px 0;
+  padding: 20px 0;
   background-color: #212629;
   position: fixed;
   width: 100%;
@@ -37,6 +37,21 @@ header .menu nav a {
 header .menu nav a:hover {
   color: #ffc900;
   cursor: pointer;
+}
+header .menu .btn {
+  border: 1px solid #545557;
+  display: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: #8b8d8f;
+}
+@media (max-width: 992px) {
+  header .menu .btn {
+    display: block;
+  }
+  header .menu nav {
+    display: none;
+  }
 }
 
 #welcome {
@@ -79,11 +94,15 @@ header .menu nav a:hover {
   margin: 20px 0 40px 0;
   font-size: 20px;
 }
+#services .box {
+  margin-left: 20px;
+}
 #services .box .icon {
+  text-align: center;
   margin: 20px 90px;
   height: 120px;
   width: 120px;
-  padding: 27px;
+  padding: 25px;
   border-radius: 50%;
   color: white;
   background-color: #ffc900;
@@ -91,19 +110,53 @@ header .menu nav a:hover {
 }
 #services .box .textbox {
   text-align: center;
-  margin-left: 30px;
+  margin-left: 10px;
   width: 290px;
 }
 #services .box .textbox h2 {
-  margin-right: 30px;
-  font-size: 30px;
+  margin-right: 10px;
+  font-size: 27px;
   font-weight: 700;
 }
 #services .box .textbox p {
-  width: 260px;
+  width: 300px;
+  font-size: 18px;
   color: #8d8989;
   margin: 10px 0;
-  line-height: 1.6;
+  line-height: 1.4;
+}
+@media (max-width: 1200px) {
+  #services .box {
+    margin-left: 0;
+  }
+  #services .box .textbox p {
+    width: 280px;
+  }
+}
+@media (max-width: 992px) {
+  #services .box .icon {
+    margin-left: 45px;
+  }
+  #services .box .textbox h2 {
+    width: 192px;
+  }
+  #services .box .textbox p {
+    width: 200px;
+  }
+}
+@media (max-width: 768px) {
+  #services .box .icon {
+    margin: auto;
+  }
+  #services .box .textbox h2 {
+    width: 250px;
+    margin: 10px 0 10px 100px;
+    padding-left: 50px;
+  }
+  #services .box .textbox p {
+    width: 500px;
+    font-size: 20px;
+  }
 }
 
 #portfolio {
@@ -138,6 +191,7 @@ header .menu nav a:hover {
 }
 #portfolio .box .icon:hover {
   opacity: 0.9;
+  cursor: pointer;
 }
 #portfolio .textbox {
   text-align: center;
@@ -316,6 +370,9 @@ header .menu nav a:hover {
 
 #clients .imgbox {
   padding: 20px 10px;
+}
+#clients .imgbox:hover {
+  cursor: pointer;
 }
 #clients .microsoft {
   width: 216px;

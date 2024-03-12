@@ -8,25 +8,55 @@
             margin: 20px 0 40px 0
             font-size: 20px
     .box
+        margin-left: 20px
         .icon
+            text-align: center
             margin: 20px 90px
             height: 120px
             width: 120px
-            padding: 27px
+            padding: 25px
             border-radius: 50%
             color: #ffff
             background-color: #ffc900
             font-size: 60px
         .textbox
             text-align: center
-            margin-left: 30px
+            margin-left: 10px
             width: 290px
             h2
-                margin-right: 30px
-                font-size: 30px
+                margin-right: 10px
+                font-size: 27px
                 font-weight: 700
             p
-                width: 260px
+                width: 300px
+                font-size: 18px
                 color: #8d8989
                 margin: 10px 0
-                line-height: 1.6
+                line-height: 1.4
+    @media ( max-width: 1200px )
+        .box
+            margin-left: 0
+            .textbox
+                p
+                    width: 280px
+    @media ( max-width: 992px )
+        .box
+            .icon
+                margin-left: 45px
+            .textbox
+                h2
+                    width: 192px
+                p
+                    width: 200px
+    @media ( max-width: 768px )
+        .box
+            .icon
+                margin: auto
+            .textbox
+                h2
+                    width: 250px
+                    margin: 10px 0 10px 100px
+                    padding-left: 50px
+                p
+                    width: 500px
+                    font-size: 20px
